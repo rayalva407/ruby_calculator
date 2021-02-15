@@ -16,6 +16,12 @@ while operation != "q"
     puts "Enter second number"
     num2 = gets.chomp.to_i
     puts "#{num1} - #{num2} = #{num1 - num2}"
+  elsif operation == '*'
+    puts "Enter first number"
+    num1 = gets.chomp.to_i
+    puts "Enter second number"
+    num2 = gets.chomp.to_i
+    puts "#{num1} * #{num2} = #{num1 * num2}"
   end
   puts "Goodbye!"
 end

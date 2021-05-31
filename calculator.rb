@@ -15,4 +15,8 @@ class Calculator
   def divide(x, y)
     x / y
   end
+
+  def power(x, y) 
+    x ^^ y
+  end 
 end

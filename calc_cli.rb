@@ -36,7 +36,9 @@ while operation != "q"
   elsif operation == 'pow'
     puts "Enter number"
     num1 = gets.chomp.to_i
-    puts "Enter exponent" 
+    puts "Enter exponent"
+    num2 = gets.chomp.to_i
+    puts "The answer is #{calculator.power(num1, num2)}" 
   end
 end
 puts "Goodbye!"

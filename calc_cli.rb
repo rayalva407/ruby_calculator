@@ -36,6 +36,7 @@ while operation != "q"
   elsif operation == 'pow'
     puts "Enter number"
     num1 = gets.chomp.to_i
+    puts "Enter exponent" 
   end
 end
 puts "Goodbye!"

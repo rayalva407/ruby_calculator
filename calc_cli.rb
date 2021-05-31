@@ -34,7 +34,7 @@ while operation != "q"
     puts "The answer is #{calculator.divide(num1, num2)}"
   end
   elsif operation == 'pow'
-
+    puts "Enter number" 
   end
 end
 puts "Goodbye!"

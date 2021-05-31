@@ -33,5 +33,8 @@ while operation != "q"
     num2 = gets.chomp.to_i
     puts "The answer is #{calculator.divide(num1, num2)}"
   end
+  elsif operation == 'pow'
+
+  end
 end
 puts "Goodbye!"
